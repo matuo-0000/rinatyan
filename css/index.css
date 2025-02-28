@@ -224,8 +224,11 @@ body{
   .modal.open{
     margin-left: 70%;
   }
+  .catch_copy{
+    font-size: 2rem;
+  }
   .catch1{
-    width: 20rem;
+    width: 15rem;
     left: 40%;
     margin: 0;
   }
