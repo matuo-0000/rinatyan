@@ -224,6 +224,9 @@ body{
     top: 2.5rem;
     rotate: -45deg;
   }
+  .modal{
+    padding-left: 0.5rem;
+  }
   .modal.open{
     margin-left: 60%;
   }
