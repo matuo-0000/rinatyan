@@ -118,7 +118,7 @@ body{
   height: 10rem;
   rotate: 20deg;
   border-radius: 3rem;
-  margin-left: 2rem;
+  margin-left: 10%;
 }
 .img3{
   background-image: url('../img/cf221c8203abf6eb1a976d5d902f293a.jpg');
@@ -128,17 +128,25 @@ body{
   border-radius: 50%;
   width: 7rem;
   height: 7rem;
-  margin-left: 20rem;
+  margin-left: 20%;
+}
+.catch_copy{
+  font-size: 3rem;
+  font-family: 'myfont';
+  color: white;
+  position: absolute;
+  margin-top: 30rem;
 }
 .catch1{
   padding-top: 7rem;
   background-color: rgba(61, 163, 174, 0.5);
-  width: 30rem;
+  width: 30%;
   height: 33rem;
-  margin-left: 40rem;
+  left: 60%;
+  position: absolute;
 }
 .text1{
-  font-size: 3rem;
+  font-size: 2rem;
   font-family:'myfont';
 }
 .something1_frame{
@@ -175,4 +183,59 @@ body{
   font-size: 2.5rem;
   color: rgb(183, 22, 65);
   border-bottom: 0.1rem red solid;
+}
+@media (max-width:690px) {
+  .header_frame{
+    height: 5rem;
+    width: 100%;
+  }
+  .title{
+    height: 5rem;
+    width: 24rem;
+    font-size: ;
+  }
+  .hum_frame{
+    width: 5rem;
+    height: 5rem;
+  }
+  .hum_var1{
+    left: 0.5rem;
+    top:1.2rem;
+    width:5rem
+  }
+  .hum_var2{
+    left: 0.5rem;
+    top:2.5rem;
+    width: 5rem;
+  }
+  .hum_var3{
+    left: 0.5rem;
+    top:3.8rem;
+    width: 5rem;
+  }
+  .hum_var1.open{
+    rotate: 45deg;
+    top:2.5rem
+  }
+  .hum_var3.open{
+    top: 2.5rem;
+    rotate: -45deg;
+  }
+  .modal.open{
+    margin-left: 70%;
+  }
+  .catch1{
+    width: 20rem;
+    left: 40%;
+    margin: 0;
+  }
+  .text1{
+    font-size: 1.5rem;
+  }
+  .textframe_1{
+    width: 20rem;
+  }
+  .price_text_frame{
+    width: 20rem;
+  }
 }
