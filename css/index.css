@@ -233,6 +233,7 @@ body{
 
   .catch_copy{
     font-size: 2rem;
+    z-index: 3;
   }
   .img3{
     top:3rem
