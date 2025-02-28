@@ -201,19 +201,19 @@ body{
   .hum_var1{
     left: 0.5rem;
     top:1.2rem;
-    width:5rem;
+    width:  3rem;
     height: 0.1rem;
   }
   .hum_var2{
     left: 0.5rem;
     top:2.5rem;
-    width: 5rem;
+    width: 3rem;
     height: 0.1rem;
   }
   .hum_var3{
     left: 0.5rem;
     top:3.8rem;
-    width: 5rem;
+    width: 3rem;
     height: 0.1rem;
   }
   .hum_var1.open{
@@ -227,7 +227,7 @@ body{
   .modal.open{
     margin-left: 60%;
   }
-  
+
   .catch_copy{
     font-size: 2rem;
   }
