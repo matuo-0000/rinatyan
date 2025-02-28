@@ -68,7 +68,7 @@ body{
 }
 .modal{
   margin-left:100%;
-  position: absolute;
+  position: fixed;
   background-color: white;
   height: 40rem;
   z-index: 2;
@@ -80,20 +80,27 @@ body{
   margin-left: 70%;
   transition: 0.5s;
 }
+.modal2{
+  display: block;
+  margin-top: 7rem;
+}
 .home{
   margin-top: 10rem;
   font-size: 1rem;
   font-weight: bold;
+  display: block;
 }
 .concept{
-  margin-top: 3rem;
+  margin-top: 4rem;
   font-size: 1rem;
   font-weight: bold;
+  display: block;
 }
 .price{
   margin-top: 3rem;
     font-size: 1rem;
     font-weight: bold;
+    display: block;
 }
 .m_f_img{
   width: 100%;
@@ -133,4 +140,39 @@ body{
 .text1{
   font-size: 3rem;
   font-family:'myfont';
+}
+.something1_frame{
+  width: 100%;
+  height: 60rem;
+}
+.textframe_1{
+  width: 40rem;
+  margin: 7rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.text2{
+  font-family: 'sans-serif';
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(183, 22, 65);
+  border-bottom: 0.1rem red solid;
+}
+.price_frame{
+  width: 100%;
+  height: 60rem;
+}
+
+.price_text_frame {
+  width: 40rem;
+  margin: 7rem auto 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.price_text{
+  font-family: 'sans-serif';
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: rgb(183, 22, 65);
+  border-bottom: 0.1rem red solid;
 }
