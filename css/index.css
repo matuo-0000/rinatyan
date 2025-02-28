@@ -234,6 +234,9 @@ body{
   .catch_copy{
     font-size: 2rem;
   }
+  .img2{
+    width: 10rem;
+  }
   .catch1{
     width: 15rem;
     left: 40%;
@@ -247,5 +250,6 @@ body{
   }
   .price_text_frame{
     width: 20rem;
+  
   }
 }
