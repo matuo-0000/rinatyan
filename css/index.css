@@ -151,7 +151,8 @@ body{
 }
 .something1_frame{
   width: 100%;
-  height: 60rem;
+  height: 70rem;
+  background: linear-gradient(360deg, rgba(131, 128, 124, 1), rgba(243, 232, 235, 0));;
 }
 .textframe_1{
   width: 40rem;
@@ -166,11 +167,112 @@ body{
   color: rgb(183, 22, 65);
   border-bottom: 0.1rem red solid;
 }
+.something1_title{
+  margin: 0 auto;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.something1_text{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  width: 50rem;
+  margin: 7rem auto 0 auto;
+}
+.some1_title{
+  position: relative;
+  display: flex;
+  width: 40rem;
+  margin: 7rem auto 0 auto;
+}
+.some1_var1{
+  top: 3.5rem;
+  left: 0;
+  position: absolute;
+  width: 10rem;
+  height: 0.1rem;
+  background-color: rgb(183, 22, 65);
+}
+.some1_var2{
+  top: 3.5rem;
+  right: 0;
+  position: absolute;
+  width: 10rem;
+  height: 0.1rem;
+  background-color: rgb(183, 22, 65);
+}
+.some1_text{
+  display: flex;
+  justify-content: center;
+  width: 40rem;
+  font-size: 2rem;
+  color: rgb(183, 22, 65);
+  font-weight: bold;
+}
+.some1_content{
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem auto 0 auto;
+}
+.some1_imgs{
+  width: 24rem;
+}
+.some1_img{
+  background-image: url(../img/120841259.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+}
+.some1_img2{
+  background-image: url(../img/istockphoto-1431296772-612x612.jpg);
+  background-position: center;
+  background-size:cover ;
+  width: 100%;
+  height: 15rem;
+}
+.some1_img3{
+  background-image: url(../img/b57518ed61f55f9f9fe62e1a3ecd19fb_t.jpeg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+}
+.some1_img_text{
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+}
 .price_frame{
   width: 100%;
   height: 60rem;
+  background: linear-gradient(360deg, rgba(131, 128, 124, 1), rgba(243, 232, 235, 0));
 }
-
+.table1{
+  width: 50rem;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+.table_header{
+  background-color: crimson;
+  color: white;
+}
+td{
+  padding: 1rem;
+  width: 20rem;
+  border: 0.1rem black solid;
+  margin: 0;
+}
+th{
+  padding: 1rem;
+  width: 20rem;
+  border: 0.1rem black solid;
+  margin: 0;
+}
 .price_text_frame {
   width: 40rem;
   margin: 7rem auto 0 auto;
