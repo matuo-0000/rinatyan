@@ -108,6 +108,14 @@ body{
     cursor: pointer;
     z-index: 1;
 }
+.features {
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  z-index: 1;
+}
 .m_f_img{
   width: 100%;
   height: 40rem;
@@ -307,6 +315,85 @@ th{
 .br1{
   display: none;
 }
+.tokutyou_flame{
+  width: 100%;
+  height: 100rem;
+}
+.tokutyou_title_frame{
+  width: 30rem;
+  margin: 0 auto;
+}
+.tokutyou_title{
+  font-family: 'sans-serif';
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  color: rgb(183, 22, 65);
+}
+.tokutyou_title2{
+  font-family: 'sans-serif';
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  color: rgb(183, 22, 65);
+  border-bottom: 0.1rem solid rgb(183, 22, 65);
+  font-weight: bold;
+}
+.f_imgs{
+  display: flex;
+}
+.f_img1{
+  background-image: url('../img/istockphoto-515593496-612x612.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+  width: 30rem;
+  height: 15rem;
+  border: solid rgb(92, 91, 91) 0.1rem;
+}
+.f_img2 {
+  background-image: url('../img/gahag-0058971790-1.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+  width: 30rem;
+  height: 15rem;
+  border: solid rgb(92, 91, 91) 0.1rem;
+}
+.f_img3 {
+  background-image: url('../img/future04.webp');
+  background-position: center;
+  background-size: cover;
+  border-radius: 1.5rem;
+  width: 30rem;
+  height: 15rem;
+  border: solid rgb(92, 91, 91) 0.1rem;
+}
+.f_img_content{
+  margin: 15rem auto 0 auto;
+  border-radius: 1.5rem;
+  background-color: white;
+  border: solid rgb(92, 91, 91) 0.1rem;
+}
+.f_content_flex{
+  display: flex;
+  align-items: center;
+}
+.f_number{
+  font-size: 2rem;
+  color: rgb(183, 22, 65);
+  margin: 0 0 0 1rem;
+}
+.f_title{
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+.f_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width:690px) {
   .header_frame{
     height: 5rem;
@@ -421,6 +508,37 @@ th{
   .table1{
     width: 20rem;
   }
+  .tokutyou_flame{
+    display: block;
+    width: 100%;
+  }
+  .tokutyou_title_frame{
+    width: 25rem;
+    margin: 0 auto;
+  }
+  .tokutyou_title{
+    font-size: 1rem;
+  }
+  .tokutyou_title2{
+    font-size: 1.5rem;
+  }
+  .f_imgs{
+    display: block;
+  }
+  .f_img1{
+    margin: 3rem auto 0 auto;
+    width: 20rem;
+    
+  }
+  .f_img2{
+    margin: 17rem auto 0 auto;
+    width: 20rem;
+  }
+  .f_img3{
+    margin: 17rem auto 0 auto;
+    width: 20rem;
+  }
+
 
 
 }
