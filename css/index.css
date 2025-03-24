@@ -93,7 +93,7 @@ body{
   z-index: 1;
 }
 .concept{
-  margin-top: 4rem;
+  margin-top: 3rem;
   font-size: 1rem;
   font-weight: bold;
   display: block;
@@ -109,6 +109,14 @@ body{
     z-index: 1;
 }
 .features {
+  margin-top: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  cursor: pointer;
+  z-index: 1;
+}
+.goriyounagare{
   margin-top: 3rem;
   font-size: 1rem;
   font-weight: bold;
@@ -401,6 +409,19 @@ th{
   justify-content: center;
   align-items: center;
 }
+.goriyou_title_frame {
+  width: 100%;
+  margin: 3rem auto;
+}
+
+.goriyou_title {
+  font-size: 3rem;
+  color: rgb(183, 22, 65);
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.1rem rgb(183, 22, 65) solid;
+  font-weight: bold;
+}
 .riyounagare_frame{
   height: 70rem;
 }
@@ -460,8 +481,10 @@ th{
   .modal.open{
     margin-left: 60%;
   }
-
-  .catch_copy{
+  .m_f_img{
+    background-position: -10rem;
+  }
+  .catch_copy
     font-size: 2rem;
     z-index: 3;
   }
@@ -559,7 +582,19 @@ th{
     margin: 17rem auto 0 auto;
     width: 20rem;
   }
-
+  .goriyou_title_frame{
+    width: 20rem;
+    margin: 3rem auto;  
+  }
+  .goriyou_title{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .goriyou_detail1{
+    width: 20rem;
+  }
+  
 
 
 }
