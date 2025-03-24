@@ -386,7 +386,7 @@ th{
 }
 .f_img_content{
   box-shadow: 0 0 8px gray;
-  margin: 15rem auto 0 auto;
+  margin: 16rem auto 0 auto;
   border-radius: 1.5rem;
   background-color: white;
   border: solid rgb(92, 91, 91) 0.1rem;
@@ -520,6 +520,7 @@ th{
   }
   .some1_title{
     width: 100%;
+    margin-top: 0rem;
   }
   .some1_var1{
     display: none;
@@ -534,7 +535,7 @@ th{
   }
   .something1_text{
     font-size: 0.8rem;
-    width: 15rem;
+    width: 20rem;
     margin: 3rem auto;
   }
   .br1{
@@ -547,6 +548,9 @@ th{
   .some1_imgs{
     width: 25rem;
     margin: 0 auto;
+  }
+  .some1_img_text{
+    font-size: 0.9rem;
   }
   .table1{
     width: 20rem;
