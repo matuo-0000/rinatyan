@@ -157,8 +157,8 @@ body{
 }
 .something1_frame{
   width: 100%;
-  height: 70rem;
-  background: linear-gradient(360deg, rgba(131, 128, 124, 1), rgba(243, 232, 235, 0));;
+  height: 120rem;
+  background: linear-gradient(360deg, rgb(239, 165, 143), rgba(243, 232, 235, 0));;
 }
 .textframe_1{
   width: 40rem;
@@ -383,7 +383,7 @@ th{
   }
   .something1_frame{
     width: 100%;
-    height: 110rem;
+    height: 150rem;
   }
   .some1_title{
     width: 100%;
