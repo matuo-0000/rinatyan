@@ -546,7 +546,19 @@ th{
     width: 100%;
   }
   .some1_imgs{
-    width: 25rem;
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .some1_img{
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .some1_img2{
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .some1_img3{
+    width: 20rem;
     margin: 0 auto;
   }
   .some1_img_text{
@@ -561,7 +573,7 @@ th{
     height: 110rem;
   }
   .tokutyou_title_frame{
-    width: 25rem;
+    width: 20rem;
     margin: 0 auto;
   }
   .tokutyou_title{
