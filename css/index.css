@@ -385,6 +385,15 @@ th{
     width: 100%;
     height: 110rem;
   }
+  .some1_title{
+    width: 100%;
+  }
+  .some1_var1{
+    display: none;
+  }
+  .some1_var2{
+    display: none;
+  }
   .something1_title{
     font-size: 1.5rem;
     font-weight: bold;
