@@ -423,9 +423,51 @@ th{
   font-weight: bold;
 }
 .riyounagare_frame{
-  height: 50rem;
+  height: auto;
 }
 .goriyou_detail1{
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail1 {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail2 {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail3 {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail4 {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail5 {
+  width: 30rem;
+  margin: 0 auto 2rem auto;
+  border: solid 0.2rem rgb(239, 81, 81);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.goriyou_detail6 {
   width: 30rem;
   margin: 0 auto 2rem auto;
   border: solid 0.2rem rgb(239, 81, 81);
@@ -645,6 +687,31 @@ th{
   }
   .goriyou_detail1{
     width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail1{
+    width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail2{
+    width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail3 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail4 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail5 {
+    width: 20rem;
+    height: 20rem;
+  }
+  .goriyou_detail6 {
+    width: 20rem;
+    height: 20rem;
   }
   .riyouimg1{
     width: 20rem;

@@ -12,4 +12,6 @@
     var3.classList.toggle('open');
     modal.classList.toggle('open');
   });
+
+  const details = document.querySelector('.goriyou_detail1')
 }
