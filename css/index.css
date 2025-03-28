@@ -423,7 +423,7 @@ th{
   font-weight: bold;
 }
 .riyounagare_frame{
-  height: 70rem;
+  height: 50rem;
 }
 .goriyou_detail1{
   width: 30rem;
@@ -435,6 +435,42 @@ th{
 .riyouimg1{
   width: 30rem;
 }
+.footer{
+  width: 100%;
+  background-color: brown;
+  height: 25rem;
+  display: flex;
+  justify-content: space-between;
+}
+.company_flame{
+  width: 20rem;
+  height: 20rem;
+  margin-left:3rem;
+}
+.company_name{
+  padding-top: 5rem;
+  color: white;
+  font-size: 2rem;
+}
+.company_address{
+  color: white;
+  font-size: 1rem;
+}
+.company_tel{
+  color: white;
+  font-size: 1rem;
+}
+.company_content_flame{
+  width: 20rem;
+  height: 20rem;
+  margin-right: 3rem;
+}
+.company_info{
+  color: white;
+  font-size: 2rem;
+  padding-top: 5rem;
+}
+
 @media (max-width:690px) {
   .header_frame{
     height: 5rem;
@@ -613,7 +649,34 @@ th{
   .riyouimg1{
     width: 20rem;
   }
-  
-
+  .footer{
+    display: block;
+    height: 60rem;
+    width: 100%;
+  }
+  .company_name{
+    display: flex;
+    justify-content: center;
+  }
+  .company_address{
+    display: flex;
+    justify-content: center;
+  }
+  .company_tel {
+    display: flex;
+    justify-content: center;
+  }
+  .company_flame{
+    width: 20rem;
+    margin: 0 auto;
+  }
+  .company_info{
+    display: flex;
+    justify-content: center;
+  }
+  .company_content_flame{
+    width: 20rem;
+  margin:0 auto;
+  }
 
 }
