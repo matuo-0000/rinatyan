@@ -421,6 +421,8 @@ th{
   justify-content: center;
   border-bottom: 0.1rem rgb(183, 22, 65) solid;
   font-weight: bold;
+  margin: 0 auto;
+  width: 20rem;
 }
 .riyounagare_frame{
   height: auto;
@@ -476,6 +478,30 @@ th{
 }
 .riyouimg1{
   width: 30rem;
+}
+.staff_title_frame{
+  height: 15rem;
+  width: 100%;
+}
+.staff_title{
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  font-size: 2rem;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.staff_title2 {
+  font-size: 3rem;
+  color: brown;
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.1rem solid brown;
+  margin: 0 auto;
+  width: 20rem;
+  font-weight: bold;
 }
 .staff_frame{
   width: 100%;
@@ -730,6 +756,28 @@ th{
   }
   .riyouimg1{
     width: 20rem;
+  }
+  .staff_title_frame{
+    width: 100%;
+    height: 15rem;
+  }
+  .staff_title{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .staff_title2{
+    font-size: 2rem;
+    color: brown;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.1rem solid brown;
+    margin: 0 auto;
+    width: 20rem;
+    font-weight: bold;
   }
   .staff_frame{
     display: block;
