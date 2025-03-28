@@ -477,6 +477,31 @@ th{
 .riyouimg1{
   width: 30rem;
 }
+.staff_frame{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+.staff_img2{
+  width: 20rem;
+  object-fit: cover;
+  height: 40rem;
+}
+.staff_show1{
+  width: 20rem;
+  border: 0.2rem solid black;
+  border-radius: 0.8rem;
+}
+.staff_img{
+  width: 20rem;
+  margin: 0 auto;
+}
+.staff_content{
+  width: 20rem;
+  margin: 0 auto;
+}
 .footer{
   width: 100%;
   background-color: brown;
@@ -687,34 +712,30 @@ th{
   }
   .goriyou_detail1{
     width: 20rem;
-    height: 20rem;
-  }
-  .goriyou_detail1{
-    width: 20rem;
-    height: 20rem;
   }
   .goriyou_detail2{
     width: 20rem;
-    height: 20rem;
   }
   .goriyou_detail3 {
     width: 20rem;
-    height: 20rem;
   }
   .goriyou_detail4 {
     width: 20rem;
-    height: 20rem;
   }
   .goriyou_detail5 {
     width: 20rem;
-    height: 20rem;
   }
   .goriyou_detail6 {
     width: 20rem;
-    height: 20rem;
   }
   .riyouimg1{
     width: 20rem;
+  }
+  .staff_frame{
+    display: block;
+  }
+  .staff_show1{
+    margin: 0 auto;
   }
   .footer{
     display: block;
